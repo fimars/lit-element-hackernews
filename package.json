@@ -1,0 +1,15 @@
+{
+	"scripts": {
+		"dev": "tsup src/index.ts --watch",
+		"serve": "wds --watch"
+	},
+	"dependencies": {
+		"lit": "^2.7.5"
+	},
+	"devDependencies": {
+		"@web/dev-server": "^0.2.3",
+		"ofetch": "^1.1.0",
+		"tsup": "^7.0.0",
+		"typescript": "^5.1.3"
+	}
+}
